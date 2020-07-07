@@ -48,13 +48,6 @@ export class EditListingAvailabilityFormComponent extends Component {
           return (
             <Form className={classes} onSubmit={handleSubmit}>
               {errorMessage}
-              <div className={css.calendarWrapper}>
-                <ManageAvailabilityCalendar
-                  availability={availability}
-                  availabilityPlan={availabilityPlan}
-                  listingId={listingId}
-                />
-              </div>
 
               <Button
                 className={css.submitButton}
@@ -72,6 +65,8 @@ export class EditListingAvailabilityFormComponent extends Component {
     );
   }
 }
+
+
 
 EditListingAvailabilityFormComponent.defaultProps = {
   updateError: null,
