@@ -137,6 +137,7 @@ const CreateStripeAccountFields = props => {
           formName="StripeConnectAccountForm"
           country={country}
           currency={countryCurrency(country)}
+          validate={validators.required(' ')}
         />
       ) : null}
     </div>
