@@ -11,8 +11,8 @@ export default [
   {
     id: 'default-helsinki',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Arlington, Washington',
+      bounds: new LatLngBounds(new LatLng(48.29783, 122.25448), new LatLng(48.92248, 122.78287)),
     },
   },
   {
